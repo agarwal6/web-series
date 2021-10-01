@@ -1,0 +1,41 @@
+body{
+    background-color: grey;
+}
+
+.heading{
+    color:black;
+    font-size: 6rem;
+    font-family: 'Birthstone', cursive;
+    margin-left: 25rem;
+}
+.pics{
+    width: 100%;
+    height: auto;
+}
+#image1{
+    background-image: url("https://m.media-amazon.com/images/M/MV5BMTkzNjEzMDEzMF5BMl5BanBnXkFtZTgwMDI0MjE4MjE@._V1_FMjpg_UX1000_.jpg");
+    width: 300px;
+    height: 300px;
+    float: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#image1:hover{
+    cursor: pointer;
+    transform: scale(2);
+}
+
+#image2{
+    background-image: url("https://swzd.com/wp-content/uploads/2019/11/Peak3.jpg");
+    width: 300px;
+    height: 300px;
+    float: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#image2:hover{
+    cursor: pointer;
+    transform: scale(2);
+}
+
